@@ -1,0 +1,48 @@
+.hero-sec{
+    height: 87vh;
+    width: 100vw;
+    border: 1px solid black;
+    /* position: relative; */
+    background: url("https://new-ella-demo-11.myshopify.com/cdn/shop/files/Home-Furniture-slider-1.jpg?v=1658374519&width=1880") no-repeat;
+    background-size: cover;
+    background-position: center;
+    align-content: end;
+    transition: 0.8s;
+}
+
+.hero-sec:hover {
+    transform: scale(0.99);
+}
+
+.hero-block{
+    height: 350px;
+    width: 500px;
+    /* border: 2px solid black; */
+    margin-bottom: 80px;
+    margin-left: 150px;
+padding: 10px;
+}
+
+.hero-para{
+    color: white;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    margin: 30px 0px;
+}
+
+.hero-head{
+    color: white;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 52px;
+    margin: 10px 0px;
+}
+
+.hero-link{
+    color: white;
+    text-decoration: underline;
+    font-size: 20px;
+    font-weight: 600;
+    
+}

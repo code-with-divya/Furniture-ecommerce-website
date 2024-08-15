@@ -1,0 +1,60 @@
+.ex {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 10px auto;
+    width: 90vw;
+
+}
+
+.ex-box{
+    min-width: 350px;
+    min-height: 400px;
+}
+
+
+.ex-head {
+    font-weight: 700;
+    font-size: 30px;
+    /* text-align: center; */
+    /* border: 1px solid black; */
+    margin: 20px 0px 10px 80px;
+}
+
+.ex-img{
+    width: 350px;
+    height: 300px;
+}
+
+
+.ex-title {
+    text-align: center;
+    color: black;
+    font-weight: 600;
+    font-size: 18px;
+    border: 1px solid black;
+    width: 10vw;
+    display: block;
+    margin: 20px auto;
+    background-color: white;
+    color: black;
+    border-radius: 20px;
+    height: 35px;
+    line-height: 35px;
+    transition: 0.8s;
+}
+
+
+.ex-box {
+    transition: 0.3s;
+}
+
+.ex-box:hover {
+    transform: scale(0.92);
+}
+
+.ex-title:hover {
+    background-color: rgba(251, 146, 60, 0.848);
+    color: white;
+}

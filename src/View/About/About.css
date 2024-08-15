@@ -1,0 +1,124 @@
+.ab-back {
+    height: 70vh;
+    width: 100vw;
+    /* border: 2px solid green; */
+    background: url('https://tse2.mm.bing.net/th?id=OIP.y_pc1Sri7-MvJR4ijPsyggHaEK&pid=Api&P=0&h=180') no-repeat center center;
+    background-size: cover;
+    margin-top: 64px;
+    align-content: center;
+}
+
+.ab-h1{
+    font-size: 75px;
+    line-height: 30vh;
+    /* text-decoration: double underline; */
+    text-align: center;
+    font-weight: 600;
+    /* border: 2px solid rgb(157, 95, 56); */
+    width: 30vw;
+    color: rgba(251, 146, 60, 0.848);
+    box-shadow: 0px 0px 30px rgb(157, 95, 56);
+    backdrop-filter: blur(10px);
+    /* text-shadow: 2px 2px black; */
+    height: 30vh;
+    margin: auto;
+}
+
+.ab-section1{
+    height: 50vh;
+    width: 70vw;
+    padding: 30px;
+    box-shadow: 0px 0px 30px rgb(157, 95, 56);
+    margin:50px auto;
+    /* border-radius: 60px 0px; */
+    border: 2px solid rgb(157, 95, 56);
+}
+
+.ab-h2{
+    /* margin-left: 60px; */
+    font-size: 2em;
+    text-align: center;
+    font-weight: 700;
+    color: rgba(251, 146, 60, 0.848);
+    text-align: center;
+    
+}
+
+
+.ab-p {
+   
+    margin: auto;
+    font-size: 18px;
+
+}
+
+.about-container {
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+    height: 60vh;
+    width: 80vw;
+    margin: auto;
+    margin-top: 50px;
+    padding: 20px;
+    color: white;
+    /* border: 3px solid black; */
+}
+
+/* .content {
+    background-color: rgba(255, 165, 0, 0.9);
+    Orange with some transparency
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    width: 100%;
+} */
+
+.ab-section2 {
+    /* margin-bottom: 20px; */
+    border: 2px solid rgb(157, 95, 56);
+    border-radius:  60px 0px;
+    color: black;
+    margin: auto;
+    width: 30vw;
+    height: 48vh;
+    padding: 30px;
+    /* border: 2px solid orange; */
+    box-shadow: 0px 0px 30px rgb(157, 95, 56);
+
+}
+
+.ab-section3 {
+    /* margin-bottom: 20px; */
+    border: 2px solid rgb(157, 95, 56);
+    border-radius: 0px 60px;
+    color: black;
+    margin: auto;
+    width: 30vw;
+    height: 48vh;
+    padding: 30px;
+    /* border: 2px solid orange; */
+    box-shadow: 0px 0px 30px rgb(157, 95, 56);
+
+}
+
+.ab-h3 {
+    /* margin: 30px; */
+    margin-bottom: 20px;
+    font-size: 2em;
+    text-align: center;
+    font-weight: 700;
+    color: rgba(251, 146, 60, 0.848);
+
+}
+
+.ab-sec-p{
+    font-size: 18px;
+    font-weight: 400;
+    list-style: 20px;
+}
+
+/* .section p {
+    margin: 10px 0 0;
+} */

@@ -1,0 +1,120 @@
+@media screen and (max-width: 950px) {
+    
+
+    .sign-up-main{
+        display: none;
+        margin: auto;
+        align-content: center;
+    }
+    
+
+    #email,
+    #address {
+        max-width: 200px;
+    }
+
+    .sign-up-label{
+        display: block;
+        margin: auto;
+    }
+
+    .sign-up-input {
+        max-width: 200px;
+        
+    }
+
+}
+
+
+.sign-up-sec{
+    width: 100vw;
+    height: 100vh;
+    border: 0.5px solid black;
+    background: url("https://tse3.mm.bing.net/th?id=OIP.FQPO77uqI5hmN3L78CvDRAHaEo&pid=Api&P=0&h=180")no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+.sign-up-h1 {
+    font-size: 32px;
+    line-height: 36px;
+    text-align: center;
+    font-weight: 700;
+    color: rgba(251, 146, 60, 0.848);
+}
+
+.sign-up-box {
+    min-height: 680px;
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: center;
+    border: 2px solid rgba(251, 146, 60, 0.848);
+    backdrop-filter: blur(30px);
+    box-shadow: 0px 0px 30px rgb(157, 95, 56);
+    border-radius: 0px 60px;
+    
+}
+
+.sign-up-main {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    /* border: 1px solid black; */
+    margin: auto;
+}
+
+.sign-up-form {
+    margin: 10px;
+
+}
+
+#email,
+#address {
+    width: 532px;
+}
+
+.sign-up-label {
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 600;
+}
+
+.sign-up-input {
+    display: block;
+    width: 250px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: rgba(255, 0, 0, 0);
+    border: 2px solid rgba(251, 146, 60, 0.848);
+    
+}
+
+.sign-up-input:focus{
+    background-color: rgba(251, 146, 60, 0.848);
+}
+
+#pic {
+    border: none;
+}
+
+.submit{
+    margin: 10px auto;
+    display: block;
+    height: 40px;
+    width: 20vw;
+    font-size: 24px;
+    line-height: 40px;
+    font-weight: bold;
+    background-color: rgba(251, 146, 60, 0.848);
+}
+
+.submit:hover{
+    background-color: rgb(251, 131, 33);
+    color: rgba(255, 250, 250, 0.82);
+}

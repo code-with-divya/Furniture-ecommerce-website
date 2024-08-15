@@ -1,0 +1,32 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+body {
+  overflow-x: hidden;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Oxygen', 'Segoe UI', 'Roboto',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+.para {
+  margin: 10px 6vw;
+
+}
+
+.head {
+  font-weight: 600;
+  font-size: 28px;
+  margin: 10px 6vw;
+  font-style: italic;
+  margin-top: 30px !important;
+}

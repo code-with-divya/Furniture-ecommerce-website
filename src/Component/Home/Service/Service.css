@@ -1,0 +1,78 @@
+.serv {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 0px auto;
+    width: 90vw;
+}
+
+/* .serv-box {
+    transition: 0.4s;
+} */
+
+/* .serv-box:hover {
+    transform: scale(0.9);
+} */
+
+.serv-card {
+    min-height: 150px;
+    min-width: 230px;
+    /* border: 1px solid black; */
+    /* margin-left: 50px; */
+    /* margin-top: 60px; */
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 5px;
+    align-content: center;
+    background-color: rgba(251, 146, 60, 0.848);
+    
+}
+
+
+
+
+
+.serv-link {
+    font-size: 20px;
+    font-weight: 600;
+    /* padding: 20px; */
+    margin: 0px 60px;
+    display: block;
+    min-height: 250px;
+    min-width: 250px;
+    color: black;
+    align-self: center;
+
+}
+
+.serv-link:hover {
+    text-decoration: underline;
+    color: white;
+
+}
+
+.serv-img {
+    min-width: 200px;
+    min-height: 150px;
+}
+
+.serv-head {
+    font-weight: 600;
+    font-size: 28px;
+    /* text-align: center; */
+    /* border: 1px solid black; */
+    margin: 10px 6vw;
+}
+
+.serv-p {
+    text-align: center;
+    font-size: 16px;
+    /* border: 1px solid black; */
+}
+
+.serv-title {
+    text-align: center;
+    color: black;
+    font-weight: 600;
+}

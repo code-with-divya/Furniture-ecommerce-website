@@ -1,0 +1,71 @@
+.pro-nav {
+    position: fixed;
+    z-index: 3;
+}
+
+
+.pro-main {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    position: relative;
+    /* border: 2px solid blue; */
+    position: relative;
+    top: 62px;
+    align-self: center;
+}
+
+.pro-cat {
+    border: 2px solid gray;
+    width: 18vw;
+    height: 92vh;
+    position: fixed;
+}
+
+.pro-form{
+    /* border: 2px solid black; */
+    width: 16vw;
+    margin: 20px auto;
+}
+
+.pro-form-input{
+    margin: 0px 15px;
+}
+
+.pro-select {
+    border: 1px solid gray;
+    border-radius: 4px;
+    margin: 0px 60px;
+    display: inline-block;
+}
+
+.pro-cat-p-main {
+    margin-top: 80px !important;
+}
+
+.pro-cat-p {
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.pro-card {
+    position: relative;
+    top: 64px;
+    /* border: 2px solid black; */
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+
+
+.pro {
+    width: 78.5vw;
+    /* border: 3px dashed coral; */
+    justify-items: center;
+    /* margin: auto ; */
+    margin-left: 18vw;
+    position: absolute;
+
+
+}

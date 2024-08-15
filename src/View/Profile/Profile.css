@@ -1,0 +1,78 @@
+/* src/ProfilePage.css */
+/* body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+  } */
+
+.profile-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 95vh;
+    width: 100vw;
+    margin: 0px auto;
+    margin-top: 62px !important;
+
+    background: url('https://tse2.mm.bing.net/th?id=OIP.RoO6FdVfOSeacSSE8KtGMgHaEK&pid=Api&P=0&h=180') no-repeat center center;
+    background-size: cover;
+    border: 2px solid orange;
+    /* background-color: rgba(191, 150, 73, 0.852); */
+}
+
+.profile-card {
+    border: 2px solid rgb(207, 135, 2);
+    height: 70vh;
+    background-color: rgba(255, 166, 0, 0);
+    backdrop-filter: blur(10px);
+    padding: 20px;
+    border-radius: 60px 60px;
+    color: white;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    box-shadow: 0px 0px 30px rgb(157, 95, 56);
+
+    width: 40vw;
+}
+
+.profile-card h1 {
+    margin: 0;
+    font-size: 2em;
+}
+
+.profile-card p {
+    margin: 10px 0 0;
+}
+
+.profile-pic {
+    border: 2px solid rgb(207, 135, 2);
+    height: 120px;
+    width: 120px;
+    margin:  auto;
+    border-radius: 50%;
+    box-shadow: 0px 0px 30px rgb(157, 95, 56);
+}
+
+.profile-info-head {
+    font-size: 40px;
+    font-weight: 600;
+    font-style: oblique;
+    text-align: center;
+    color: black;
+}
+
+
+.profile-info-p {
+    font-size: 22px;
+    font-weight: 600;
+    margin: 10px;
+    color: black;
+}
+
+.profile-info-span {
+    margin-left: 8px;
+    font-size: 18px;
+    font-weight: 500;
+}

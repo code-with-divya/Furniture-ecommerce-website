@@ -1,0 +1,6 @@
+.catlist-cat:hover {
+    background-color: rgba(251, 146, 60, 0.848);
+    /* border: 2px solid red; */
+    display: block;
+    cursor: pointer;
+}

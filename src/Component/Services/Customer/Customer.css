@@ -1,0 +1,37 @@
+.cust{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap ;
+    margin: 0px 20px;
+    margin-bottom: 50px;
+}
+
+.cust-box{
+    height: 150px;
+    width: 140px;
+    margin: 20px 10px;
+    align-content: center;
+}
+
+.cust-img{
+    height: 100px;
+    width: 140px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.cust-title{
+    text-align: center;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.cust-title:hover{
+    text-decoration: underline;
+}
+
+.cust-head {
+    font-weight: 600;
+    font-size: 42px;
+    margin: 10px 6vw;
+}
